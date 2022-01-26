@@ -27,9 +27,10 @@ h3{
 input{
   text-align: left;
   width: auto;
-  height: 30px;
+  height: 40px;
   border-radius: 4px;
   padding-left: 8px;
+  border: 1px solid rgb(238, 238, 238);
 }
 
 .add{
@@ -68,17 +69,18 @@ table td{
 th{
   width: 250px;
   color: rgb(0, 0, 0);
-  border:1px solid rgb(214, 214, 214);
+  border:1px solid rgb(240, 240, 240);
 }
 .delete{
- margin-top: 10px;
-  width: 20px;
-  height: 20px ;
-  float: right;
+  width: 50px;
+  height: 40px;
   border-radius: 5px;
-  bottom: 25px;
+  border: none;
+  cursor: pointer;
+
 }
 .delete:hover{
   color: rgb(214, 214, 214);
   background-color: rgb(212, 36, 36);
+  color: white;
 }

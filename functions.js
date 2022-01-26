@@ -9,7 +9,7 @@ addRow = () =>{
     let newRow = table.insertRow(table.rows.length);
     let del = document.createElement('button');
     del.classList ="delete";
-    del.innerHTML ="X"
+    del.innerHTML ="Delete"
 
 
     let cell1 = newRow.insertCell(0);
